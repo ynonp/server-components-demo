@@ -1,11 +1,10 @@
-import HelloWorld from './components/hello_world'
+import PlanetInfo from './components/planet_info'
 
 export default function Home() {
   return (
     <main>
-      <HelloWorld name="Dave" />
-      <HelloWorld name="Dana" />
-      <HelloWorld />
+      <PlanetInfo id={3} />
+      <PlanetInfo id={4} />
     </main>
   )
 }
